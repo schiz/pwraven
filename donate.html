@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>PWGame.net</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=996px; initial-scale=1.0;">
+
+	<link rel="shortcut icon" href="images/favicon.png">
+
+	<link rel="stylesheet" href="css/main.css">
+	 
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="js/scripts.js"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="/" title="PWGame.net | На главную" class="text-hide">PWGame.net - Perfect World Game Server</a></h1>
+			</div><!-- logo -->
+			<div id="main-menu">
+				<a class="home active first-shild"><i class="marker"></i></a>
+				<a class="gift"><i class="marker"></i></a>
+				<a class="donate"><i class="marker"></i></a>
+				<a class="download last-shild"><i class="marker"></i></a> 
+			</div><!-- main-menu -->
+			<div id="about">
+				<blockquote>
+					<p>PWGame.net — легендарный PVP-сервер Perfect World. Окунунитесь в что-то там и блабла.</p>
+					<cite>Васек с бугорка</cite>
+				</blockquote>
+			</div>
+		</div><!-- header -->
+		<div id="middle">
+			<div id="sidebar" class="pull-left">
+				<div id="servers">
+					<div class="servers-title text-upper">Сервера</div>
+					<div class="servers-wrap">
+						<div class="server-item" id="phoenix">
+							<a href="#" class="tooltip" data-tooltip='<div class="tooltip-title">Камни медитации</div><div class="tooltip-content">Эти предметы помогут вам на первых этапах игры</div>'>
+								<div class="server-title">Phoenix</div>
+							</a>
+							<div class="server-bg"></div>
+						</div>
+						<div class="server-item" id="raven">
+							<a href="#" class="tooltip" data-tooltip='<div class="tooltip-title">Камни медитации</div><div class="tooltip-content">Эти предметы помогут вам на первых этапах игры</div>'>
+								<div class="server-title">Raven</div>
+							</a>
+							<div class="server-bg"></div>
+						</div>
+					</div>
+				</div><!-- servers -->
+			</div><!-- sidebar -->
+			<div id="mainbar" class="pull-right">
+				<div id="content">
+					<div class="content-outer">
+						<div class="content-inner">
+							<div class="page-head">
+								<h2 class="italic">Пожертвования:</h2>
+							</div>
+							<div class="page-content">
+								<div class="donate-steps" id="donate-form">
+									<div class="donate-step" id="donate-step1">
+										<div class="field">
+											<label class="field-icon register-icon-user" for="donate-field-name"><span></span></label>
+											<input type="text" name="" id="donate-field-name" placeholder="логин" data-type="text">
+										</div>
+										<div class="donate-step-info info italic"><span>Нет аккаунта? </span><a href="#">Зарегистрируйтесь!</a></div>
+
+										<div class="merchant">
+											<div class="say">
+												<p class="question">Wanna something to buy?</p>
+												<p>Здесь вы можете преобрести немного голда, если Вам нехватает</p>
+												<p>Для начала, введите имя Вашего аккаунта</p>
+											</div>
+										</div>
+									</div>
+									
+									<div class="donate-step hide" id="donate-step2">
+										<div class="donate-step-title">Персонаж, который должен получить подарок:</div>
+										<div class="donate-list">
+											<ul id="donate-list">
+												<li>
+													<div class="ui-radio-wrap">
+														<input type="radio" name="donate" id="donate-1024" value="100" style="display: none;">
+														<!-- <div class="ui-radio"></div> -->
+													</div>
+													<label for="donate-1024">
+														<div class="col">
+															<div class="cost"><span class="val"></span> золота</div>
+															<div class="price"><span class="val"></span> руб.</div>
+														</div>
+													</label>
+												</li>
+												<li>
+													<div class="ui-radio-wrap">
+														<input type="radio" name="donate" id="donate-1025" value="1000" style="display: none;">
+														<!-- <div class="ui-radio"></div> -->
+													</div>
+													<label for="donate-1025">
+														<div class="col">
+															<div class="cost"><span class="val"></span> золота</div>
+															<div class="price"><span class="val"></span> руб.</div>
+														</div>
+														<div class="col">
+															<div class="until">
+																<span class="free"> + <span class="val"></span> золота бесплатно</span><br> 
+																<span class="date">(только до <span class="val"></span>)</span>
+															</div>
+														</div>
+													</label>
+												</li>
+												<li>
+													<div class="ui-radio-wrap">
+														<input type="radio" name="donate" id="donate-1026" value="5000" style="display: none;">
+														<!-- <div class="ui-radio"></div> -->
+													</div>
+													<label for="donate-1026">
+														<div class="col">
+															<div class="cost"><span class="val"></span> золота</div>
+															<div class="price"><span class="line-through">750 руб.</span><span><span class="val"></span> руб.</span></div>
+														</div>
+														<div class="col">
+															<div class="discount">-<span class="val"></span>%</div>
+														</div>
+													</label>
+												</li>
+												<li>
+													<div class="ui-radio-wrap">
+														<input type="radio" name="donate" id="donate-1028" value="2300" style="display: none;">
+														<!-- <div class="ui-radio"></div> -->
+													</div>
+													<label for="donate-1028">
+														<div class="other-amount">
+															<div class="cost">другая сумма</div>
+
+															<div class="donate-count-wrapper">
+																<div class="cout-controller less"></div>
+																<div class="field">
+																	<label class="field-icon" for="donate-count"><span></span></label>
+																	<input type="text" name="" id="donate-count" data-min="1" data-max="9999" data-step="100" data-type="text" value="2300">
+																</div>
+																<div class="cout-controller next"></div>
+															</div>
+															<div class="until">
+																<span class="free"> + <span class="val"></span> золота бесплатно</span>
+															</div>
+															<div class="price"><span class="title">Cтоимость: </span><span class="val"></span> руб.</div>
+														</div>
+													</label>
+												</li>
+											</ul>
+										</div>
+
+										<div class="donate-steps-submit">
+											<button class="btn btn-small" type="button" disabled="true" id="donate-submit">Пожертвовать</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- content -->
+			</div><!-- mainbar -->
+			<div class="clear"></div>
+		</div><!-- middle -->
+		<div id="footer">
+			<div id="download">
+				<a href="#" class="inline">я просто хочу скачать клиент</a>
+			</div>
+			<div id="copyright">© 2008–2013 Игровыем сервера <a href="/">PWGame.Net</a></div>
+		</div><!-- footer -->
+	</div><!-- wrapper -->
+</body>
+</html>
